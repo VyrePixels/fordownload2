@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Checklist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="titlecontainer">
+        <h1 id="cctitle">Coding Checklist</h1>
+        <button id="cac">Create a checklist</button>
+        <hr>
+    </div>
+    <!--<div id="cacbox">
+        <p style="font-family: sans-serif; font-size: 1.5em; text-align: center;">create a checklist</p>
+        <button style="background-color: red; position: relative; top: -7vh; left: 57vw;" id="closecac">X</button><hr>
+        <label for="cacname">Name: </label><input type="text" name="" id="cacname" style="color: black;"><br><br>
+        <label for="">Language / Project: </label><input type="text" name="" id="" style="color: black;">
+    </div>-->
+    <div class="dropdown">
+        <button id="choosel">Choose a coding language</button>
+        <div id="menu">
+            <ul>
+                <div id="columns">
+                    <div id="column1">
+                        <li><a href="">Web Development</a></li>
+                    </div>
+                    <div id="column2">
+                        <li>python code</li>
+                    </div>
+                    <div id="column3">
+                        <li>c++ code</li>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div id="checklist" class="checboxes">
+        <div id="checkcolumn1" class="checkcolumns">
+            <div style="border: black solid;">
+                <input type="checkbox" name="" id="labeleddivs"><label for="labeleddivs" class="checks" class="cfp">labeled divs</label>
+                <p style="margin: 0; margin-left: 1.1vw;">Make sure div's are labeled with id's or class's</p>
+                <input type="checkbox" name="" id="pleasantdesign" style="margin-top: 5vh;" class="cfp"><label for="pleasantdesign" class="checks">Pleasant Design</label>
+                <p style="margin: 0px; margin-left: 1.1vw;">present content in a pleasant way</p>
+            </div>
+        </div>
+        <div id="checkcolumn2" class="checkcolumns">
+            <div style="border: black solid;">
+                <input type="checkbox" name="" id="mobilefriendly"><label for="mobilefriendly" class="checks" class="cfp">Mobile Friendly</label>
+                <p style="margin: 0px; margin-left: 1.1vw;">Use scalable measurements and flexbox or grid</p>
+                <input type="checkbox" name="" id="goodpalette" style="margin-top: 5vh;" class="cfp"><label for="goodpalette" class="checks">Decent Palette</label>
+                <p>don't use lots of colors, but rather a palette that won't distract people</p>
+            </div>
+        </div>
+        <div id="checkcolumn3" class="checkcolumns" >
+            <div style="border: black solid;">
+                <input type="checkbox" name="" id="userfriendly"><label for="userfriendly" class="checks" class="cfp">User Friendly</label>
+                <p style="margin: 0px; margin-left: 1.1vw;">The website is readable and navigatable</p>
+            </div>
+        </div>
+    </div>
+    <h1 id="percentage">test</h1>
+    <script src="index.js"></script>
+</body>
+</html>
